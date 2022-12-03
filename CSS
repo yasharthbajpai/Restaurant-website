@@ -1,0 +1,170 @@
+body{background-image:url("white.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:600px;
+     padding:0px;
+    margin:0;
+    text-align: center;
+    background-attachment:fixed;
+
+}
+
+header{
+    background-color:rgb(247, 229, 205);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    padding:30px;
+    box-shadow: 0 0 5px ;
+    
+}
+header li{
+    display:inline;
+    padding-left:30px;
+}
+header li a{
+    color:black;
+    
+        border-radius:0px;
+        border-color:none;
+    text-decoration: none;
+    padding: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.hgjj{
+    color:black;
+    background-color: rgb(248, 149, 1);
+    
+        border-radius:0px;
+        border-color:none;
+    text-decoration: none;
+    padding: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+li a:hover{
+    color:rgb(2, 235, 223);
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+#contactt{color:rgb(160, 104, 0);
+        border-style:solid;
+        border-radius:0px;
+        background-color: aqua;
+        margin-top:-20px;
+    float:right;}
+header li img{
+    width:160px;
+    float:left;
+    margin-top:-30px;
+    height:80px;
+}
+.fgg{row-gap: 100px;
+column-gap: 20px;}
+.foram{
+ background-color:transparent;}
+ .clor{background-color: coral;}
+ .centre{text-align: center;
+         padding-top:90px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        letter-spacing: 30px;
+        background-color:transparent;}
+        .container{
+            display:grid;
+            height:260px;
+            grid-template-columns: 800px 1fr;
+            grid-template-rows: 1fr 1fr;
+            column-gap: 10px;
+         row-gap: 10px;}
+ .item{ background-color:transparent;}
+ .item1{grid-row-start: 1;
+       grid-row-end: 3; width:270px;}
+         .bg{background-color:transparent;
+             background-repeat:no-repeat;
+           background-size: cover;
+         width:500px; border-style: solid;border-color:transparent; margin-left: -40px;}
+    .op{padding-top: 45px;}
+
+    .container4{background-color:transparent;
+        display:inline-grid;
+        grid-template-columns: 1fr 1fr;
+   ;}
+   .item4{background-color: aliceblue;}
+   .itemcollide{grid-column-start: 1;
+   grid-column-end: 3;
+text-align: center;}
+   .container9{background-color:white;
+    display: grid;
+    grid-template-columns: 400px 400px 500px;
+    grid-template-rows:400px 100px 100px;
+     height:460px;
+    column-gap: 10px;}
+.item9{background-color:cornflowerblue; padding-bottom: -30px; padding-top: -60px;margin-top: 30px;}
+.merge{grid-row-start: 1;
+  grid-row-end: 3;}
+.m{grid-column-start: 2;
+grid-column-end: 4;
+background-image: url("rest22.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: 30px;
+ width:900px;}
+.io{background-image: url("yash.jpeg");
+    height:240px;
+ width:600}
+.size{height:400px}
+.editt:hover{background-color:rgb(24, 9, 240);}
+.editt{background-color: red;}
+.border1{border-style: solid;
+background-color: rgb(255, 251, 0);}
+.no{border-style: solid;
+border-right: 30px;}
+.bb:hover{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:rgb(17, 129, 226);background-color:transparent;}
+.bb{color:rgb(236, 156, 6);background-color:transparent;padding-top: -60px;}
+.para{font-size: large;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+.pp{font-size:30px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.vi{background-color: rgb(156, 16, 16);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color:pink;}
+.vi:hover{background-color: brown;text-decoration: none;}
+.vi:visited{background-color: black;}
+.ni{font-size:3px white;color:blueviolet}
+.nn{border-style: solid ;border-color: white;color:blue;text-shadow: red 2px 3px 4px;}
+.ni:hover{color:red;text-decoration: none;}
+.opi{border-style:solid;border-radius: 10px;text-shadow: blue 2px;background-color: bisque;letter-spacing: 2px;}
+.opi:hover{background-color: red;font-size: larger;}
+.pp{text-shadow: rgb(9, 255, 181) 4px 0px 7px ;}
+.nn{background-color: antiquewhite;}
+.ip1{border-style:double;background-color: blue;margin-top: 20px;}
+.foram{margin-top:50px;}
+.container444{background-color:#D3BAC5;
+    display:flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 1fr 1fr;
+    row-gap: 20px;
+    column-gap:30px;
+    letter-spacing: 20px;
+    height:200px
+    }
+    .item1223{color:rgb(20, 4, 4);margin-top: 70px;}
+    .set{margin-left:300px;}
+    .set1{margin-left:200px;}
+    .jjjk{height:200px;width:300px;margin-top:-70px;margin-left:-270px;width:400px;height:100px;margin-top:-20px;}
+    .ggv{letter-spacing: 5px;margin-top:-5px;}
+    .re{margin-right:10px;}
+    .de{margin-right: 25px;}
+    .fdd{margin-right: 45px;text-decoration: none; }
+    .ghhj{margin-right:150px;text-decoration: none;}
+    .hiv{margin-left:350px;}
+    .hn{text-decoration: none;margin-top:-4px;}
+
+
+.hhh{border-style: solid;
+     border-radius: 15px;
+    background-color:rgb(130, 233, 247);
+    border-color: transparent;;}
+.personedit{border-style: solid; border-color: transparent;background-color:rgb(202, 191, 31);margin-bottom: -14px;}
+.placeholder1{border-style: solid;margin-bottom:-60px;border-width:9px;background-color: rgba(134, 62, 4, 0.856); border-color:transparent}
+.passedit{border-style:solid;border-color:transparent;border-color:transparent;background-color: rgba(190, 202, 20, 0.856); margin-top:15px;margin-bottom: -14px;}
+.placeholder2{border-style: solid;border-width:9px;background-color: rgba(134, 62, 4, 0.856);border-color: transparent;}
+.round{background-color:rgb(130, 233, 247);border-style: solid;border-radius: 30px; border-color: transparent;margin-top:-30px ;margin-bottom: 10px;}
+.sb1{background-color: rgb(52, 153, 48);}
+.sb1:hover{background-color: coral;}
+.jjj{width:400px;margin-left: -50px;}
+.sett{margin-left:30px}
