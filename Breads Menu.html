@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Breads</title>
+        <style>
+            .grid1{display:grid;grid-template-columns: auto;padding: 20px;color:white;font-family: Georgia;background-image: url("Black\ and\ White.jpg");}
+            .grid3{display:grid;grid-template-columns: 370px 400px 450px 420px;padding: 20px;color: white;text-align: left;}
+            .grid2{display:grid;grid-template-columns: 400px 400px 400px 400px;padding: 20px;color: white;text-align: left;}
+            .grid4{display:grid;grid-template-columns: auto;padding: 20px;color: white;}
+            body{background-image: url(Background.jpg);background-attachment: fixed;background-size: auto;background-repeat: no-repeat;}
+            .menu_area{ width: 40%;}
+            .menu_area ul{list-style: none;display: flex;align-items: center;justify-content: space-between;}
+            .menu_area ul li{position: relative;}
+            .menu_area ul li::after{ content: ''; position: absolute; width: 0%;height: 3px;background: #00ffff;bottom: -10px;left: 0;transition: .5s all ease-in-out;}
+            .menu_area ul li:hover::after{width: 100%;}
+            .menu_area ul li a{color: #fff;font-family: lato;font-size: 16px;transition: 0.3s all ease-in-out;}
+            .menu_area ul li a:hover{color: #00ffff;}
+            img{display: none}
+            span:hover + img{display: block;height: 150px;width: 210px;}
+            span{font-size: 0.6cm;}
+            .button{background-color: black;border: none;color: white;padding: 15px 32px;text-align: left;text-decoration: none;display: inline-block;font-size: 16px;}
+            
+        </style>
+    </head>
+    <body>
+        <div class="grid1">
+            <h1 style="font-size:1.5cm; text-align: center; justify-content: center;"><b><u>Breads</b></u></h1>
+        </div>
+        <div class="grid3">
+            <p style="font-size: 0.9cm;">NAME</p>
+            <p style="font-size: 0.9cm;">COST</p>
+            <p style="font-size: 0.9cm;">QUANTITY</p>
+            <p style="font-size: 0.9cm;">ORDER</p>
+        </div>
+        <div class="grid2">
+            <p><span>Plain Naan</span>
+                <img src="naan.jpg">
+            </p>
+            <p>₹100</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Butter Naan</span>
+                <img src="butter naan.jpg">
+            </p>
+            <p>₹110</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Paneer Naan</span>
+                <img src="paneer naan.jpg">
+            </p>
+            <p>₹120</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Butter Chapati</span>
+                <img src="butter chapati.jpg">
+            </p>
+            <p>₹120</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Plain Parathas</span>
+                <img src="parathas.jpg">
+            </p>
+            <p>₹120</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Paneer Parathas</span>
+                <img src="paneer parathas.jpg">
+            </p>
+            <p>₹140</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Onion Parathas</span>
+                <img src="onion parathas.jpg">
+            </p>
+            <p>₹140</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Plain Roti</span>
+                <img src="roti.jpg">
+            </p>
+            <p>₹100</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Roomali Roti</span>
+                <img src="roomali roti.jpg">
+            </p>
+            <p>₹120</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid4">
+            <p style="text-align: center;justify-content: center;font-size: 1cm;color: rgb(255, 255, 255);row-gap: 100px;"><b>Take-Away is avaliable from 10:00 AM - 8:30 PM</b></p>
+        </div>
+        <button class="button" onclick="history.back()">Go Back</button>
+    </body>
+</html>

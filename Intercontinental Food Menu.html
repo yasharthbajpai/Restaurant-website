@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Intercontinental Food</title>
+        <style>
+            .grid1{display:grid;grid-template-columns: auto;padding: 20px;color:white;font-family: Georgia;background-image: url("Black\ and\ White.jpg");}
+            .grid3{display:grid;grid-template-columns: 370px 400px 450px 420px;padding: 20px;color: white;text-align: left;}
+            .grid2{display:grid;grid-template-columns: 400px 400px 400px 400px;padding: 20px;color: white;text-align: left;}
+            .grid4{display:grid;grid-template-columns: auto;padding: 20px;color: white;}
+            body{background-image: url(Background.jpg);background-attachment: fixed;background-size: auto;background-repeat: no-repeat;}
+            .menu_area{ width: 40%;}
+            .menu_area ul{list-style: none;display: flex;align-items: center;justify-content: space-between;}
+            .menu_area ul li{position: relative;}
+            .menu_area ul li::after{ content: ''; position: absolute; width: 0%;height: 3px;background: #00ffff;bottom: -10px;left: 0;transition: .5s all ease-in-out;}
+            .menu_area ul li:hover::after{width: 100%;}
+            .menu_area ul li a{color: #fff;font-family: lato;font-size: 16px;transition: 0.3s all ease-in-out;}
+            .menu_area ul li a:hover{color: #00ffff;}
+            img{display: none}
+            span:hover + img{display: block;height: 150px;width: 210px;}
+            span{font-size: 0.6cm;}
+            .button{background-color: black;border: none;color: white;padding: 15px 32px;text-align: left;text-decoration: none;display: inline-block;font-size: 16px;}
+            
+        </style>
+    </head>
+    <body>
+        <div class="grid1">
+            <h1 style="font-size:1.5cm; text-align: center; justify-content: center;"><b><u>Intercontinental Food</b></u></h1>
+        </div>
+        <div class="grid3">
+            <p style="font-size: 0.9cm;">NAME</p>
+            <p style="font-size: 0.9cm;">COST</p>
+            <p style="font-size: 0.9cm;">QUANTITY</p>
+            <p style="font-size: 0.9cm;">ORDER</p>
+        </div>
+        <div class="grid2">
+            <p><span>French Toast</span>
+                <img src="french toast.jpg">
+            </p>
+            <p>₹150</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Pancakes</span>
+                <img src="pancakes.jpg">
+            </p>
+            <p>₹150</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Waffles</span>
+                <img src="waffles.jpg">
+            </p>
+            <p>₹150</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Cerealc(of your Choice)</span>
+                <img src="cereal.jpg">
+            </p>
+            <p>₹150</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Sandwich(veg. or non-veg.)</span>
+                <img src="sandwich.jpg">
+            </p>
+            <p>₹200</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Hash Browns</span>
+                <img src="hash brown.jpg">
+            </p>
+            <p>₹180</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Salads (of Your choice)</span>
+                <img src="salads.jpg">
+            </p>
+            <p>₹200</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Veg. Burger</span>
+                <img src="veg burger.jpg">
+            </p>
+            <p>₹220</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Chicken Burger</span>
+                <img src="chicken burger.jpg">
+            </p>
+            <p>₹260</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Falafel (with Hummus and pita)</span>
+                <img src="falafel.jpg">
+            </p>
+            <p>₹240</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Shawarma</span>
+                <img src="shawarma.jpg">
+            </p>
+            <p>₹240</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Margherita Pizza</span>
+                <img src="margherita.jpg">
+            </p>
+            <p>₹260</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Veggie Pizza</span>
+                <img src="Veggie Pizza.jpg">
+            </p>
+            <p>₹280</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>BBQ Chicken Pizza</span>
+                <img src="bbq chicken pizza.jpg">
+            </p>
+            <p>₹300</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Arrabiata Sauce Pasta</span>
+                <img src="arrabiata.jpg">
+            </p>
+            <p>₹250</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Fettuccine Alfredo Sauce Pasta</span>
+                <img src="fettuccine.jpg">
+            </p>
+            <p>₹290</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Pesto Sauce Pasta</span>
+                <img src="pesto.jpg">
+            </p>
+            <p>₹250</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <p><span>Marinara Sauce Pasta</span>
+                <img src="marinara.jpg">
+            </p>
+            <p>₹250</p>
+            <form>
+                <label for=""></label><input type="number" id="" name="" min="1" max="20">
+            </form>
+            <div class="menu_area">
+                <ul>
+                    <li><a href="#">Add To Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid2">
+            <br>
+        </div>
+        <div class="grid4">
+            <p style="text-align: center;justify-content: center;font-size: 1cm;color: rgb(255, 255, 255);row-gap: 100px;"><b>Take-Away is avaliable from 10:00 AM - 8:30 PM</b></p>
+        </div>
+        <button class="button" onclick="history.back()">Go Back</button>
+    </body>
+</html>
